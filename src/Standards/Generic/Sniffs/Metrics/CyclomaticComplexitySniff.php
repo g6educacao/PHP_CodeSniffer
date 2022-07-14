@@ -79,11 +79,11 @@ class CyclomaticComplexitySniff implements Sniff
             T_FOREACH                  => true,
             T_WHILE                    => true,
             T_ELSEIF                   => true,
-            T_INLINE_THEN              => true,
-            T_COALESCE                 => true,
-            T_COALESCE_EQUAL           => true,
-            T_MATCH_ARROW              => true,
-            T_NULLSAFE_OBJECT_OPERATOR => true,
+            // T_INLINE_THEN              => true, FIX-ME rever g6
+            // T_COALESCE                 => true,
+            // T_COALESCE_EQUAL           => true,
+            // T_MATCH_ARROW              => true,
+            // T_NULLSAFE_OBJECT_OPERATOR => true,
         ];
 
         $complexity = 1;
